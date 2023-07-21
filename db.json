@@ -1,0 +1,40 @@
+{
+    "produto": [
+      {
+        "name": "name 1",
+        "imageUrl": "https://loremflickr.com/640/480",
+        "preco": 98,
+        "id": "1"
+      },
+      {
+        "name": "name 2",
+        "imageUrl": "https://loremflickr.com/640/480",
+        "preco": 48,
+        "id": "2"
+      },
+      {
+        "name": "name 3",
+        "imageUrl": "https://loremflickr.com/640/480",
+        "preco": 31,
+        "id": "3"
+      },
+      {
+        "name": "name 4",
+        "imageUrl": "https://loremflickr.com/640/480",
+        "preco": 3,
+        "id": "4"
+      },
+      {
+        "name": "name 5",
+        "imageUrl": "https://loremflickr.com/640/480",
+        "preco": 72,
+        "id": "5"
+      },
+      {
+        "name": "name 6",
+        "imageUrl": "https://loremflickr.com/640/480",
+        "preco": 89,
+        "id": "6"
+      }
+    ]
+  }
