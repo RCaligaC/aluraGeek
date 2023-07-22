@@ -1,40 +1,24 @@
 {
-    "produto": [
+    "alg_f2l": [
       {
-        "name": "name 1",
-        "imageUrl": "https://loremflickr.com/640/480",
-        "preco": 98,
+        "case": "F2L 1",
+        "imageUrl": "http://cubiclealgdbimagegen.azurewebsites.net/generator?&puzzle=3&case=U%20R%20U%27%20R%27&view=trans&stage=f2l&scheme=FEFE00-EE0000-0000F2-FFFFFF-FFA100-00D800",
+        "alg": "R' F R F'",
         "id": "1"
       },
       {
-        "name": "name 2",
-        "imageUrl": "https://loremflickr.com/640/480",
-        "preco": 48,
+        "case": "F2L 2",
+        "imageUrl": "http://cubiclealgdbimagegen.azurewebsites.net/generator?&puzzle=3&case=F%20R%27%20F%27%20R&view=trans&stage=f2l&scheme=FEFE00-EE0000-0000F2-FFFFFF-FFA100-00D800",
+        "alg": "F R' F' R",
         "id": "2"
       },
       {
-        "name": "name 3",
-        "imageUrl": "https://loremflickr.com/640/480",
-        "preco": 31,
+        "case": "F2L 3",
+        "imageUrl": "http://cubiclealgdbimagegen.azurewebsites.net/generator?&puzzle=3&case=F%27%20U%27%20F&view=trans&stage=f2l&scheme=FEFE00-EE0000-0000F2-FFFFFF-FFA100-00D800",
+        "alg": "F' U' F",
         "id": "3"
-      },
-      {
-        "name": "name 4",
-        "imageUrl": "https://loremflickr.com/640/480",
-        "preco": 3,
-        "id": "4"
-      },
-      {
-        "name": "name 5",
-        "imageUrl": "https://loremflickr.com/640/480",
-        "preco": 72,
-        "id": "5"
-      },
-      {
-        "name": "name 6",
-        "imageUrl": "https://loremflickr.com/640/480",
-        "preco": 89,
-        "id": "6"
       }
+
     ]
-  }
+      
+}

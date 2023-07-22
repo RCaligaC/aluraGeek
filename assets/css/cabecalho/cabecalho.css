@@ -1,0 +1,13 @@
+.cabeca {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}

@@ -8,3 +8,7 @@ const listaProdutos = () => {
     .catch(error => console.log(error));
 
 }
+
+export const produtosServicos = {
+    listaProdutos
+};
