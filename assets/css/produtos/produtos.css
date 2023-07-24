@@ -5,4 +5,11 @@
     align-items: flex-start;
     align-self: stretch;
     flex-wrap: wrap;
+
+    
+}
+
+.cards__produtos div:nth-child(5),
+.cards__produtos div:nth-child(6) {
+    display: none;
 }
