@@ -1,0 +1,8 @@
+.cards__produtos {
+    display: flex;
+    padding: .5rem;
+    gap: 1rem;
+    align-items: flex-start;
+    align-self: stretch;
+    flex-wrap: wrap;
+}
