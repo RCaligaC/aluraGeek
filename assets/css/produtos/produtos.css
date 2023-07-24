@@ -1,15 +1,63 @@
 .cards__produtos {
     display: flex;
-    padding: .5rem;
+    margin: .5rem;
     gap: 1rem;
     align-items: flex-start;
     align-self: stretch;
     flex-wrap: wrap;
-
-    
 }
 
 .cards__produtos div:nth-child(5),
 .cards__produtos div:nth-child(6) {
     display: none;
+}
+
+.card__image {
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+.card__nome {
+    color: var(--preto-100);
+    font-size: .875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.card__preco {
+    color: var(--preto-100);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.btn__card {
+    color: var(--blue_azul100);
+    font-size: .875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+@media screen and (min-width: 1024px) {
+
+    .cards__produtos div:nth-child(5),
+    .cards__produtos div:nth-child(6) {
+
+        display: block;
+    }
+
+}
+
+@media screen and (min-width: 1040px) {
+
+    .cards__produtos{
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+
 }

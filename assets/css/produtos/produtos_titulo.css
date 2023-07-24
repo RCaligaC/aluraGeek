@@ -1,17 +1,9 @@
-.produtos__titulo {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 1rem;
-    align-self: stretch;
-}
-
 .produtos__titulo__nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     align-self: stretch;
-    margin: 1rem;
+    margin: 1rem .5rem;
 }
 
 .produtos__titulo__tipo {
@@ -48,7 +40,7 @@ tablet */
 @media screen and (min-width: 768px){
 
     .produtos__titulo__nav {
-        margin: 2rem 2rem;
+        margin-top: 2rem;
         margin-bottom: 1rem;
     }
 
@@ -62,7 +54,7 @@ tablet */
 
     .produtos__vertudo__seta {
         width: 1.5rem;
-        height: 1.rem;
+        height: 1.5rem;
     }
 }
 
@@ -72,7 +64,7 @@ tablet */
 
     .produtos__titulo__nav {
         width: 71rem;
-        margin: 2rem auto 1rem;
+        /* margin: 2rem auto 1rem; */
     }
 
     .produtos__titulo__tipo {
