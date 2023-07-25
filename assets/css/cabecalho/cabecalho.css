@@ -1,11 +1,10 @@
 .cabeca {
     display: flex;
-    padding: 1rem;
+    padding: .5rem;
     display: flex;
     align-items: center;
     justify-content: space-around;
     align-self: stretch;
-
 }
 
 .cabecalho {
