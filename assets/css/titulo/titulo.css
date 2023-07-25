@@ -15,8 +15,8 @@
     color: var(--white_100);
     align-items: flex-start;
     justify-content: flex-end;
-    margin: .5rem;
-    gap: .5rem;
+    margin: .3rem;
+    gap: .3rem;
 }
 
 .banner__texto {

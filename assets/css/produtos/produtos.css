@@ -1,7 +1,7 @@
 .cards__produtos {
     display: flex;
-    margin: .5rem;
-    gap: 1rem;
+    margin: .3rem;
+    gap: .3rem;
     align-items: flex-start;
     align-self: stretch;
     flex-wrap: wrap;
