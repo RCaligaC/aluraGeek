@@ -1,16 +1,12 @@
 .banner {
-    background-image: url("../../image/banner.jpg");
+    width: 100%;
+    height: 11rem;
+    background-image: linear-gradient(180deg,transparent,rgba(0,0,0,.8)),url("../../image/banner.jpg");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: 50%;
     background-size: cover;
     display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: flex-start;
-    align-self: stretch;
-    padding: 1rem;
-    
-    width: 100%;
+    flex-flow: column-reverse;
 }
 
 .banner__titulo {
@@ -19,6 +15,7 @@
     color: var(--white_100);
     align-items: flex-start;
     justify-content: flex-end;
+    margin: 1rem;
     gap: .5rem;
 }
 
@@ -58,9 +55,13 @@
 
 @media screen and (min-width: 768px){
 
+    .banner {
+        height: 17rem;
+    }
+
+
     .banner__titulo {
-        margin-left: 1rem;
-        margin-bottom: 1.5rem;
+        margin: 2rem;
         gap: 1rem;
     }
 
@@ -75,9 +76,13 @@
 
 @media screen and (min-width: 1440px){
 
+    .banner {
+        align-items: center;
+        height: 22rem;
+    }
     .banner__titulo {
-        margin-left: 8.5rem;
-        margin-bottom: 2rem;
+
+        width: 71rem;
         gap: 1rem;
     }
 
