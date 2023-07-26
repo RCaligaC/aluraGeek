@@ -49,19 +49,17 @@
         margin: 1.5rem;
     }
 
+    .cards__produtos div:nth-child(5) {
+        display: block;
+    }
+
+    .cards__produtos div:nth-child(6) {
+        display: none;
+    }
+
     .card__image {
         
         width: 10.25rem;
-    }
-
-}
-
-@media screen and (min-width: 1024px) {
-
-    .cards__produtos div:nth-child(5),
-    .cards__produtos div:nth-child(6) {
-
-        display: block;
     }
 
 }
@@ -78,6 +76,12 @@
     .card__image {
         
         width: 11.5rem;
+    }
+
+    .cards__produtos div:nth-child(5),
+    .cards__produtos div:nth-child(6) {
+
+        display: block;
     }
 
 }

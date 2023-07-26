@@ -58,6 +58,14 @@ tablet */
     }
 }
 
+@media screen and (min-width: 1024px) {
+
+    .produtos__titulo__nav {
+        margin: 2rem 1.5rem 1rem;
+    }
+
+}
+
 /* responsivo */
 
 @media screen and (min-width: 1440px) {

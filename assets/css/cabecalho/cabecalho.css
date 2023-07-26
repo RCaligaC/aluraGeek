@@ -80,11 +80,10 @@
     }
 
     .cabecalho {
-        padding: .5rem 0;
+        padding: 1rem 2rem;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        width: 100%;
     }
 
     .cabecalho__nav__pesquisa {
@@ -137,6 +136,12 @@
 
     .cabeca {
        padding: 2rem 9rem;
+    }
+
+    .cabecalho {
+        padding: 1rem 0;
+
+        max-width: 1165px;
     }
     
 }

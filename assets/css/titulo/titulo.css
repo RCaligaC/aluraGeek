@@ -74,6 +74,17 @@
     }
 }
 
+@media screen and (min-width: 1024px) {
+
+    .banner__titulo {
+        margin: 4.5rem;
+        margin-bottom: 2rem;
+        gap: 1rem;
+    }
+
+}
+
+
 @media screen and (min-width: 1440px){
 
     .banner {
@@ -84,6 +95,7 @@
 
         width: 74rem;
         gap: 1rem;
+        margin-bottom: 2rem;
     }
 
     .banner__texto {
