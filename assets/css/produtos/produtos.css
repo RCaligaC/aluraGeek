@@ -1,7 +1,7 @@
 .cards__produtos {
     display: flex;
-    margin: .3rem;
-    gap: .3rem;
+    margin: .8rem;
+    gap: 1rem;
     align-items: flex-start;
     align-self: stretch;
     flex-wrap: wrap;
@@ -15,6 +15,7 @@
 .card__image {
     flex: 1 0 0;
     align-self: stretch;
+    width: 9.75rem;
 }
 
 .card__nome {
@@ -44,6 +45,19 @@
 
 @media screen and (min-width: 1024px) {
 
+    .cards__produtos {
+        margin: 1.5rem;
+    }
+
+    .card__image {
+        
+        width: 10.25rem;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+
     .cards__produtos div:nth-child(5),
     .cards__produtos div:nth-child(6) {
 
@@ -58,6 +72,12 @@
         justify-content: space-between;
         align-items: flex-start;
         gap: 1rem;
+        margin: 1.5rem 2rem;
+    }
+
+    .card__image {
+        
+        width: 11.5rem;
     }
 
 }

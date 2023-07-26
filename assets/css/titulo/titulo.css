@@ -15,7 +15,7 @@
     color: var(--white_100);
     align-items: flex-start;
     justify-content: flex-end;
-    margin: .3rem;
+    margin: .8rem;
     gap: .3rem;
 }
 
@@ -56,12 +56,12 @@
 @media screen and (min-width: 768px){
 
     .banner {
-        height: 17rem;
+        height: 19rem;
     }
 
 
     .banner__titulo {
-        margin: 2rem;
+        margin: 3rem;
         gap: 1rem;
     }
 
@@ -82,7 +82,7 @@
     }
     .banner__titulo {
 
-        width: 71rem;
+        width: 74rem;
         gap: 1rem;
     }
 

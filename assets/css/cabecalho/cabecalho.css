@@ -75,8 +75,12 @@
 
 @media screen and (min-width: 768px){
 
+    .cabeca {
+        padding: 1rem;
+    }
+
     .cabecalho {
-        padding: .5rem;
+        padding: .5rem 0;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -118,6 +122,10 @@
         height: 1.156rem;
     }
 
+    .cabecalho__nav__pesquisa {
+        width: 25rem;
+    }
+
     .btn__login__cabecalho {
         width: 11.375rem;
         padding: 1rem;
@@ -128,9 +136,7 @@
 @media screen and (min-width: 1440px){
 
     .cabeca {
-        margin: auto;
-        width: 80rem;
-
+       padding: 2rem 9rem;
     }
     
 }

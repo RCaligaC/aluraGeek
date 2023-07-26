@@ -19,31 +19,33 @@
     <link rel="stylesheet" href="./assets/css/titulo/titulo.css">
     <link rel="stylesheet" href="./assets/css/produtos/produtos_titulo.css">
     <link rel="stylesheet" href="./assets/css/produtos/produtos.css">
+    <link rel="stylesheet" href="./assets/css/footer/footer.css">
 
     <title>AluraGeek</title>
 </head>
 
 <body>
-    <header class="cabeca">
+    <header class="cabeca" data-cabeca>
         <div class="cabecalho">
-        <nav class="cabecalho__nav">
+            <nav class="cabecalho__nav">
 
-            <div class="cabecalho__nav__logo">
-                <a class="nav__logo" href="#"><img src="./assets/image/sports_esports_black_24dp 1.svg" alt="Controle videogame"></a>
-                <a class="nav__texto" href="#"><img src="./assets/image/Texto.svg" alt="Texto Alura"></a>
+                <div class="cabecalho__nav__logo">
+                    <a class="nav__logo" href="#"><img src="./assets/image/sports_esports_black_24dp 1.svg"
+                            alt="Controle videogame"></a>
+                    <a class="nav__texto" href="#"><img src="./assets/image/Texto.svg" alt="Texto Alura"></a>
 
-            </div>
+                </div>
 
-            <div class="cabecalho__nav__pesquisa">
-                <input class="cabecalho__pesquisa--input" placeholder="Pesquisar sobre..." type="text">
-                <img class="cabecalho__pesquisa__imgLupa" src="./assets/image/lupa.png" alt="Imagem de uma lupa">
+                <div class="cabecalho__nav__pesquisa">
+                    <input class="cabecalho__pesquisa--input" placeholder="Pesquisar sobre..." type="text">
+                    <img class="cabecalho__pesquisa__imgLupa" src="./assets/image/lupa.png" alt="Imagem de uma lupa">
 
-            </div>
-        
-        </nav>
+                </div>
 
-        <a href="#" class="btn__login__cabecalho">Login</a>
-        <img class="cabecalho__imgLupa" src="./assets/image/lupa.png" alt="Imagem de uma lupa">
+            </nav>
+
+            <a href="#" class="btn__login__cabecalho">Login</a>
+            <img class="cabecalho__imgLupa" src="./assets/image/lupa.png" alt="Imagem de uma lupa">
 
         </div>
 
@@ -66,85 +68,17 @@
                 <a class="produtos__vertudo__texto" href="#">Ver tudo</a>
                 <img class="produtos__vertudo__seta" src="./assets/image/arrow_back_black_24dp 1.svg" alt="Imagem seta">
             </div>
-            
-        </section>
-
-        <section class="cards__produtos">
-
-            <div class="card__item">
-
-                <img class="card__image" src="./assets/image/unsplash_6FDXGY9J6y4.png" alt="imagem do produto">
-                <p class="card__nome">Produto XYZ</p>
-                <p class="card__preco">R$ 60,00</p>
-                <a class="btn__card" href="#">Ver produto</a>
-
-            </div>
-
-            <div class="card__item">
-
-                <img class="card__image" src="./assets/image/unsplash_6FDXGY9J6y4.png" alt="imagem do produto">
-                <p class="card__nome">Produto XYZ</p>
-                <p class="card__preco">R$ 60,00</p>
-                <a class="btn__card" href="#">Ver produto</a>
-
-            </div>
-
-            <div class="card__item">
-
-                <img class="card__image" src="./assets/image/unsplash_6FDXGY9J6y4.png" alt="imagem do produto">
-                <p class="card__nome">Produto XYZ</p>
-                <p class="card__preco">R$ 60,00</p>
-                <a class="btn__card" href="#">Ver produto</a>
-                
-            </div>
-
-            <div class="card__item">
-
-                <img class="card__image" src="./assets/image/unsplash_6FDXGY9J6y4.png" alt="imagem do produto">
-                <p class="card__nome">Produto XYZ</p>
-                <p class="card__preco">R$ 60,00</p>
-                <a class="btn__card" href="#">Ver produto</a>
-                
-            </div>
-
-            <div class="card__item">
-
-                <img class="card__image" src="./assets/image/unsplash_6FDXGY9J6y4.png" alt="imagem do produto">
-                <p class="card__nome">Produto XYZ</p>
-                <p class="card__preco">R$ 60,00</p>
-                <a class="btn__card" href="#">Ver produto</a>
-                
-            </div>
-
-            <div class="card__item">
-
-                <img class="card__image" src="./assets/image/unsplash_6FDXGY9J6y4.png" alt="imagem do produto">
-                <p class="card__nome">Produto XYZ</p>
-                <p class="card__preco">R$ 60,00</p>
-                <a href="btn__card">Ver produto</a>
-                
-            </div>
 
         </section>
 
-        <section class="produtos__titulo__nav">
+        <section class="cards__produtos" data-starwars>
 
-            <h2 class="produtos__titulo__tipo">Star Wars</h2>
-            <div class="btn__produtos__titulo">
-                <a class="produtos__vertudo__texto" href="#">Ver tudo</a>
-                <img class="produtos__vertudo__seta" src="./assets/image/arrow_back_black_24dp 1.svg" alt="Imagem seta">
-            </div>
-            
-        </section>
-
-        <section class="cards__produtos">
-
-            <div class="card__item">
+            <!-- <div class="card__item">
 
                 <img class="card__image" src="./assets/image/unsplash_6FDXGY9J6y4.png" alt="imagem do produto">
                 <p class="card__nome">Produto XYZ</p>
                 <p class="card__preco">R$ 60,00</p>
-                <a href="btn__card">Ver produto</a>
+                <a class="btn__card" href="#">Ver produto</a>
 
             </div>
 
@@ -162,8 +96,8 @@
                 <img class="card__image" src="./assets/image/unsplash_6FDXGY9J6y4.png" alt="imagem do produto">
                 <p class="card__nome">Produto XYZ</p>
                 <p class="card__preco">R$ 60,00</p>
-                <a href="btn__card">Ver produto</a>
-                
+                <a class="btn__card" href="#">Ver produto</a>
+
             </div>
 
             <div class="card__item">
@@ -171,8 +105,8 @@
                 <img class="card__image" src="./assets/image/unsplash_6FDXGY9J6y4.png" alt="imagem do produto">
                 <p class="card__nome">Produto XYZ</p>
                 <p class="card__preco">R$ 60,00</p>
-                <a href="btn__card">Ver produto</a>
-                
+                <a class="btn__card" href="#">Ver produto</a>
+
             </div>
 
             <div class="card__item">
@@ -180,89 +114,160 @@
                 <img class="card__image" src="./assets/image/unsplash_6FDXGY9J6y4.png" alt="imagem do produto">
                 <p class="card__nome">Produto XYZ</p>
                 <p class="card__preco">R$ 60,00</p>
-                <a href="btn__card">Ver produto</a>
-                
+                <a class="btn__card" href="#">Ver produto</a>
+
             </div>
 
             <div class="card__item">
-                
+
                 <img class="card__image" src="./assets/image/unsplash_6FDXGY9J6y4.png" alt="imagem do produto">
                 <p class="card__nome">Produto XYZ</p>
                 <p class="card__preco">R$ 60,00</p>
-                <a href="btn__card">Ver produto</a>
-                
-            </div>
+                <a class="btn__card" href="#">Ver produto</a>
+
+            </div> -->
 
         </section>
 
         <section class="produtos__titulo__nav">
 
-            <h2 class="produtos__titulo__tipo">Star Wars</h2>
+            <h2 class="produtos__titulo__tipo">Consoles</h2>
             <div class="btn__produtos__titulo">
                 <a class="produtos__vertudo__texto" href="#">Ver tudo</a>
                 <img class="produtos__vertudo__seta" src="./assets/image/arrow_back_black_24dp 1.svg" alt="Imagem seta">
             </div>
-            
-        </section>
-
-        <section class="cards__produtos">
-
-            <div class="card__item">
-
-                <img class="card__image" src="./assets/image/unsplash_6FDXGY9J6y4.png" alt="imagem do produto">
-                <p class="card__nome">Produto XYZ</p>
-                <p class="card__preco">R$ 60,00</p>
-                <a href="btn__card">Ver produto</a>
-
-            </div>
-
-            <div class="card__item">
-
-                <img class="card__image" src="./assets/image/unsplash_6FDXGY9J6y4.png" alt="imagem do produto">
-                <p class="card__nome">Produto XYZ</p>
-                <p class="card__preco">R$ 60,00</p>
-                <a href="btn__card">Ver produto</a>
-
-            </div>
-
-            <div class="card__item">
-
-                <img class="card__image" src="./assets/image/unsplash_6FDXGY9J6y4.png" alt="imagem do produto">
-                <p class="card__nome">Produto XYZ</p>
-                <p class="card__preco">R$ 60,00</p>
-                <a href="btn__card">Ver produto</a>
-                
-            </div>
-
-            <div class="card__item">
-
-                <img class="card__image" src="./assets/image/unsplash_6FDXGY9J6y4.png" alt="imagem do produto">
-                <p class="card__nome">Produto XYZ</p>
-                <p class="card__preco">R$ 60,00</p>
-                <a href="btn__card">Ver produto</a>
-                
-            </div>
-
-            <div class="card__item">
-
-                <img class="card__image" src="./assets/image/unsplash_6FDXGY9J6y4.png" alt="imagem do produto">
-                <p class="card__nome">Produto XYZ</p>
-                <p class="card__preco">R$ 60,00</p>
-                <a href="btn__card">Ver produto</a>
-                
-            </div>
-
-            <div class="card__item">
-                
-                <img class="card__image" src="./assets/image/unsplash_6FDXGY9J6y4.png" alt="imagem do produto">
-                <p class="card__nome">Produto XYZ</p>
-                <p class="card__preco">R$ 60,00</p>
-                <a href="btn__card">Ver produto</a>
-                
-            </div>
 
         </section>
 
+        <section class="cards__produtos" data-consoles>
+
+            <!-- <div class="card__item">
+
+                <img class="card__image" src="./assets/image/unsplash_6FDXGY9J6y4.png" alt="imagem do produto">
+                <p class="card__nome">Produto XYZ</p>
+                <p class="card__preco">R$ 60,00</p>
+                <a class="btn__card" href="#">Ver produto</a>
+
+            </div>
+
+            <div class="card__item">
+
+                <img class="card__image" src="./assets/image/unsplash_6FDXGY9J6y4.png" alt="imagem do produto">
+                <p class="card__nome">Produto XYZ</p>
+                <p class="card__preco">R$ 60,00</p>
+                <a class="btn__card" href="#">Ver produto</a>
+
+            </div>
+
+            <div class="card__item">
+
+                <img class="card__image" src="./assets/image/unsplash_6FDXGY9J6y4.png" alt="imagem do produto">
+                <p class="card__nome">Produto XYZ</p>
+                <p class="card__preco">R$ 60,00</p>
+                <a class="btn__card" href="#">Ver produto</a>
+
+            </div>
+
+            <div class="card__item">
+
+                <img class="card__image" src="./assets/image/unsplash_6FDXGY9J6y4.png" alt="imagem do produto">
+                <p class="card__nome">Produto XYZ</p>
+                <p class="card__preco">R$ 60,00</p>
+                <a class="btn__card" href="#">Ver produto</a>
+
+            </div>
+
+            <div class="card__item">
+
+                <img class="card__image" src="./assets/image/unsplash_6FDXGY9J6y4.png" alt="imagem do produto">
+                <p class="card__nome">Produto XYZ</p>
+                <p class="card__preco">R$ 60,00</p>
+                <a class="btn__card" href="#">Ver produto</a>
+
+            </div>
+
+            <div class="card__item">
+
+                <img class="card__image" src="./assets/image/unsplash_6FDXGY9J6y4.png" alt="imagem do produto">
+                <p class="card__nome">Produto XYZ</p>
+                <p class="card__preco">R$ 60,00</p>
+                <a class="btn__card" href="#">Ver produto</a>
+
+            </div> -->
+
+        </section>
+
+        <section class="produtos__titulo__nav">
+
+            <h2 class="produtos__titulo__tipo">Diversos</h2>
+            <div class="btn__produtos__titulo">
+                <a class="produtos__vertudo__texto" href="#">Ver tudo</a>
+                <img class="produtos__vertudo__seta" src="./assets/image/arrow_back_black_24dp 1.svg" alt="Imagem seta">
+            </div>
+
+        </section>
+
+        <section class="cards__produtos" data-diversos>
+
+            <!-- <div class="card__item">
+
+                <img class="card__image" src="./assets/image/unsplash_6FDXGY9J6y4.png" alt="imagem do produto">
+                <p class="card__nome">Produto XYZ</p>
+                <p class="card__preco">R$ 60,00</p>
+                <a class="btn__card" href="#">Ver produto</a>
+
+            </div>
+
+            <div class="card__item">
+
+                <img class="card__image" src="./assets/image/unsplash_6FDXGY9J6y4.png" alt="imagem do produto">
+                <p class="card__nome">Produto XYZ</p>
+                <p class="card__preco">R$ 60,00</p>
+                <a class="btn__card" href="#">Ver produto</a>
+
+            </div>
+
+            <div class="card__item">
+
+                <img class="card__image" src="./assets/image/unsplash_6FDXGY9J6y4.png" alt="imagem do produto">
+                <p class="card__nome">Produto XYZ</p>
+                <p class="card__preco">R$ 60,00</p>
+                <a class="btn__card" href="#">Ver produto</a>
+
+            </div>
+
+            <div class="card__item">
+
+                <img class="card__image" src="./assets/image/unsplash_6FDXGY9J6y4.png" alt="imagem do produto">
+                <p class="card__nome">Produto XYZ</p>
+                <p class="card__preco">R$ 60,00</p>
+                <a class="btn__card" href="#">Ver produto</a>
+
+            </div>
+
+            <div class="card__item">
+
+                <img class="card__image" src="./assets/image/unsplash_6FDXGY9J6y4.png" alt="imagem do produto">
+                <p class="card__nome">Produto XYZ</p>
+                <p class="card__preco">R$ 60,00</p>
+                <a class="btn__card" href="#">Ver produto</a>
+
+            </div>
+
+            <div class="card__item">
+
+                <img class="card__image" src="./assets/image/unsplash_6FDXGY9J6y4.png" alt="imagem do produto">
+                <p class="card__nome">Produto XYZ</p>
+                <p class="card__preco">R$ 60,00</p>
+                <a class="btn__card" href="#">Ver produto</a>
+
+            </div> -->
+
+        </section>
+
+        <script src="./components/cabecalho/cabecalho.js"></script>
+        <script type="module" src="./services/mostrarProdutos.js"></script>
     </main>
 </body>
+
 </html>
