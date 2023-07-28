@@ -1,17 +1,12 @@
-.cabeca {
-    display: flex;
-    padding: .5rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    align-self: stretch;
-}
-
 .cabecalho {
-    padding: .5rem;
+    background: var(--whait_100);
     display: flex;
+    height: 72px;
+    padding: 16px;
     justify-content: space-between;
     align-items: center;
+    align-self: stretch;
+
     width: 100%;
 }
 
@@ -19,7 +14,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
     gap: 2rem;
 }
 
@@ -32,42 +26,35 @@
 }
 
 .nav__logo {
-    width: 1.78rem;
+    width: 1.775rem;
     flex-shrink: 0;
 }
 
 .nav__texto {
-    display: flex;
-    width: 4.48rem;
-    height: .65rem;
+    width: 4.475rem;
+    height: .6475rem;
     flex-shrink: 0;
 }
 
 .cabecalho__nav__pesquisa {
-    background: var(--white_background);
-    padding: .5rem 1rem;
-    width: 17rem;
-    border-radius: 20px;
     display: none;
-    align-items: center;
-    gap: .5rem;
 }
 
 .cabecalho__pesquisa--input {
-    background: var(--white_background);
-    display: flex;
-    border: none;
-    align-items: flex-start;
-    flex: 1 0 0;
+    display: none;
 }
 
 .btn__login__cabecalho {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: .625rem;
     padding: 0.75rem 1rem;
+    font-family: 'Raleway';
+    font-style: normal;
+    line-height: normal;
     color: var(--blue_primary);
-    font-weight: 500;
+    font-weight: 600;
     cursor: pointer;
     border: 1px solid var(--blue_primary);
     width: 8.3rem;
@@ -75,19 +62,27 @@
 
 @media screen and (min-width: 768px){
 
-    .cabeca {
-        padding: 1rem;
-    }
-
     .cabecalho {
         padding: 1rem 2rem;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+        
     }
 
     .cabecalho__nav__pesquisa {
         display: flex;
+        width: 17rem;
+        background: var(--white_background);
+        padding: .5rem 1rem;
+        border-radius: 20px;
+        align-items: center;
+        gap: .5rem;
+    }
+    
+    .cabecalho__pesquisa--input {
+        display: flex;
+        background: var(--white_background);
+        border: none;
+        align-items: flex-start;
+        flex: 1 0 0;
     }
 
     .cabecalho__imgLupa {
@@ -102,46 +97,37 @@
 
 @media screen and (min-width: 1024px){
 
-    .cabeca {
-        padding: 2rem;
+    .cabecalho {
+        /* max-width: 900px; */
     }
 
     .cabecalho__nav__logo {
-        width: 11rem;
-        gap: 0;
+        width: 176px;
     }
 
     .nav__logo {
-        width: 3.125rem;
-        height: 3.125rem;
+        
     }
     
     .nav__texto {
-        width: 7.875rem;
-        height: 1.156rem;
+        width: 126px;
     }
 
     .cabecalho__nav__pesquisa {
-        width: 25rem;
+        width: 383px;
+       
     }
 
     .btn__login__cabecalho {
-        width: 11.375rem;
-        padding: 1rem;
-        font-size: 1rem;
+        
     }
 }
 
 @media screen and (min-width: 1440px){
 
-    .cabeca {
-       padding: 2rem 9rem;
-    }
-
     .cabecalho {
-        padding: 1rem 0;
-
-        max-width: 1165px;
+        margin: 0 auto;
+        max-width: 1133px;
     }
     
 }

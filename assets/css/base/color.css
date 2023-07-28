@@ -1,5 +1,6 @@
 :root {
   --blue_primary: #003479;
+  --blue_azul10: #eaf2fd;
   --blue_azul100: #2a7ae4; 
   --blue_secondary: rgba(212, 228, 250,1);
   --blue_primary_hover: #015fda;
@@ -11,5 +12,7 @@
   --erro: rgb(207, 10, 10);
   --enviar: rgb(0, 126, 0);
   --preto-100: #464646;
+  --preto-30: #c8c8c8;
+  --preto-50: #A2A2A2;
   
 }

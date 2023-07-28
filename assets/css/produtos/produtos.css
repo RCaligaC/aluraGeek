@@ -1,15 +1,35 @@
 .cards__produtos {
     display: flex;
-    margin: .8rem;
-    gap: 1rem;
+    flex-direction: column;
+    /* gap: .8rem;
     align-items: flex-start;
     align-self: stretch;
     flex-wrap: wrap;
+    margin-bottom: 1rem; */
+}
+
+.linha__produto {
+
+    display: flex;
+    gap: .8rem;
+    align-items: flex-start;
+    align-self: stretch;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+
 }
 
 .cards__produtos div:nth-child(5),
 .cards__produtos div:nth-child(6) {
     display: none;
+}
+
+.card__item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: .5rem;
+    flex: 1 0 0;
 }
 
 .card__image {
@@ -20,6 +40,7 @@
 
 .card__nome {
     color: var(--preto-100);
+    font-family: 'Raleway';
     font-size: .875rem;
     font-style: normal;
     font-weight: 500;
@@ -28,6 +49,7 @@
 
 .card__preco {
     color: var(--preto-100);
+    font-family: 'Raleway';
     font-size: 1rem;
     font-style: normal;
     font-weight: 700;
@@ -36,6 +58,7 @@
 
 .btn__card {
     color: var(--blue_azul100);
+    font-family: 'Raleway';
     font-size: .875rem;
     font-style: normal;
     font-weight: 700;
@@ -43,9 +66,18 @@
 }
 
 
+@media screen and (min-width: 768px) {
+    .cards__produtos {
+        margin-bottom: 2.5rem;
+    }
+
+}
+
+
 @media screen and (min-width: 1024px) {
 
     .cards__produtos {
+        justify-content: center;
         margin: 1.5rem;
     }
 

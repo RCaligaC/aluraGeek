@@ -13,7 +13,7 @@
     <!-- css - base -->
     <link rel="stylesheet" href="./assets/css/base/color.css">
     <link rel="stylesheet" href="./assets/css/base/reset.css">
-    <link rel="stylesheet" href="./assets/css/base/normalize.css">
+    <link rel="stylesheet" href="./assets/css/base/base.css">
 
     <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho.css">
     <link rel="stylesheet" href="./assets/css/titulo/titulo.css">
@@ -25,29 +25,28 @@
 </head>
 
 <body>
-    <header class="cabeca" data-cabeca>
-        <div class="cabecalho">
-            <nav class="cabecalho__nav">
+    <header class="cabecalho" data-cabeca>
 
-                <div class="cabecalho__nav__logo">
-                    <a class="nav__logo" href="#"><img src="./assets/image/sports_esports_black_24dp 1.svg"
-                            alt="Controle videogame"></a>
-                    <a class="nav__texto" href="#"><img src="./assets/image/Texto.svg" alt="Texto Alura"></a>
+        <nav class="cabecalho__nav">
 
-                </div>
+            <div class="cabecalho__nav__logo">
+                <a class="nav__logo" href="#"><img src="./assets/image/sports_esports_black_24dp 1.svg"
+                        alt="Controle videogame"></a>
+                <a class="nav__texto" href="#"><img src="./assets/image/Texto.svg" alt="Texto Alura"></a>
 
-                <div class="cabecalho__nav__pesquisa">
-                    <input class="cabecalho__pesquisa--input" placeholder="Pesquisar sobre..." type="text">
-                    <img class="cabecalho__pesquisa__imgLupa" src="./assets/image/lupa.png" alt="Imagem de uma lupa">
+            </div>
 
-                </div>
+            <div class="cabecalho__nav__pesquisa">
+                <input class="cabecalho__pesquisa--input" placeholder="Pesquisar sobre..." type="text">
+                <img class="cabecalho__pesquisa__imgLupa" src="./assets/image/IconePesquisaCabecalho.svg"
+                    alt="Imagem de uma lupa">
 
-            </nav>
+            </div>
 
-            <a href="#" class="btn__login__cabecalho">Login</a>
-            <img class="cabecalho__imgLupa" src="./assets/image/lupa.png" alt="Imagem de uma lupa">
+        </nav>
 
-        </div>
+        <a href="#" class="btn__login__cabecalho">Login</a>
+        <img class="cabecalho__imgLupa" src="./assets/image/lupa.png" alt="Imagem de uma lupa">
 
     </header>
 
@@ -61,27 +60,19 @@
 
     <main class="main__container">
 
-        <section class="produtos__titulo__nav">
-
-            <h2 class="produtos__titulo__tipo">Star Wars</h2>
-            <div class="btn__produtos__titulo">
-                <a class="produtos__vertudo__texto" href="#">Ver tudo</a>
-                <img class="produtos__vertudo__seta" src="./assets/image/arrow_back_black_24dp 1.svg" alt="Imagem seta">
-            </div>
-
-        </section>
-
         <section class="cards__produtos" data-starwars>
 
-            <!-- <div class="card__item">
+            <div class="produtos__titulo__nav">
 
-                <img class="card__image" src="./assets/image/unsplash_6FDXGY9J6y4.png" alt="imagem do produto">
-                <p class="card__nome">Produto XYZ</p>
-                <p class="card__preco">R$ 60,00</p>
-                <a class="btn__card" href="#">Ver produto</a>
-
+                <h2 class="produtos__titulo__categoria">Star Wars</h2>
+                <div class="btn__produtos__titulo">
+                    <a class="produtos__vertudo__texto" href="#">Ver tudo</a>
+                    <img class="produtos__vertudo__seta" src="./assets/image/arrow_back_black_24dp 1.svg" alt="Imagem seta">
+                </div>
+    
             </div>
 
+            <div class="linha__produto">
             <div class="card__item">
 
                 <img class="card__image" src="./assets/image/unsplash_6FDXGY9J6y4.png" alt="imagem do produto">
@@ -125,31 +116,35 @@
                 <p class="card__preco">R$ 60,00</p>
                 <a class="btn__card" href="#">Ver produto</a>
 
-            </div> -->
+            </div>
+
+            <div class="card__item">
+
+                <img class="card__image" src="./assets/image/unsplash_6FDXGY9J6y4.png" alt="imagem do produto">
+                <p class="card__nome">Produto XYZ</p>
+                <p class="card__preco">R$ 60,00</p>
+                <a class="btn__card" href="#">Ver produto</a>
+
+            </div>
+            </div>
 
         </section>
-
-        <section class="produtos__titulo__nav">
-
-            <h2 class="produtos__titulo__tipo">Consoles</h2>
-            <div class="btn__produtos__titulo">
-                <a class="produtos__vertudo__texto" href="#">Ver tudo</a>
-                <img class="produtos__vertudo__seta" src="./assets/image/arrow_back_black_24dp 1.svg" alt="Imagem seta">
-            </div>
-
-        </section>
+        
 
         <section class="cards__produtos" data-consoles>
 
-            <!-- <div class="card__item">
+            <div class="produtos__titulo__nav">
 
-                <img class="card__image" src="./assets/image/unsplash_6FDXGY9J6y4.png" alt="imagem do produto">
-                <p class="card__nome">Produto XYZ</p>
-                <p class="card__preco">R$ 60,00</p>
-                <a class="btn__card" href="#">Ver produto</a>
-
+                <h2 class="produtos__titulo__categoria">Consoles</h2>
+                <div class="btn__produtos__titulo">
+                    <a class="produtos__vertudo__texto" href="#">Ver tudo</a>
+                    <img class="produtos__vertudo__seta" src="./assets/image/arrow_back_black_24dp 1.svg" alt="Imagem seta">
+                </div>
+    
             </div>
 
+
+            <div class="linha__produto">
             <div class="card__item">
 
                 <img class="card__image" src="./assets/image/unsplash_6FDXGY9J6y4.png" alt="imagem do produto">
@@ -193,31 +188,35 @@
                 <p class="card__preco">R$ 60,00</p>
                 <a class="btn__card" href="#">Ver produto</a>
 
-            </div> -->
+            </div>
+
+            <div class="card__item">
+
+                <img class="card__image" src="./assets/image/unsplash_6FDXGY9J6y4.png" alt="imagem do produto">
+                <p class="card__nome">Produto XYZ</p>
+                <p class="card__preco">R$ 60,00</p>
+                <a class="btn__card" href="#">Ver produto</a>
+
+            </div>
+            </div>
 
         </section>
 
-        <section class="produtos__titulo__nav">
-
-            <h2 class="produtos__titulo__tipo">Diversos</h2>
-            <div class="btn__produtos__titulo">
-                <a class="produtos__vertudo__texto" href="#">Ver tudo</a>
-                <img class="produtos__vertudo__seta" src="./assets/image/arrow_back_black_24dp 1.svg" alt="Imagem seta">
-            </div>
-
-        </section>
 
         <section class="cards__produtos" data-diversos>
 
-            <!-- <div class="card__item">
+            <div class="produtos__titulo__nav">
 
-                <img class="card__image" src="./assets/image/unsplash_6FDXGY9J6y4.png" alt="imagem do produto">
-                <p class="card__nome">Produto XYZ</p>
-                <p class="card__preco">R$ 60,00</p>
-                <a class="btn__card" href="#">Ver produto</a>
-
+                <h2 class="produtos__titulo__categoria">Diversos</h2>
+                <div class="btn__produtos__titulo">
+                    <a class="produtos__vertudo__texto" href="#">Ver tudo</a>
+                    <img class="produtos__vertudo__seta" src="./assets/image/arrow_back_black_24dp 1.svg" alt="Imagem seta">
+                </div>
+    
             </div>
 
+
+            <div class="linha__produto">
             <div class="card__item">
 
                 <img class="card__image" src="./assets/image/unsplash_6FDXGY9J6y4.png" alt="imagem do produto">
@@ -261,13 +260,86 @@
                 <p class="card__preco">R$ 60,00</p>
                 <a class="btn__card" href="#">Ver produto</a>
 
-            </div> -->
+            </div>
+
+            <div class="card__item">
+
+                <img class="card__image" src="./assets/image/unsplash_6FDXGY9J6y4.png" alt="imagem do produto">
+                <p class="card__nome">Produto XYZ</p>
+                <p class="card__preco">R$ 60,00</p>
+                <a class="btn__card" href="#">Ver produto</a>
+
+            </div>
+            </div>
 
         </section>
 
-        <script src="./components/cabecalho/cabecalho.js"></script>
-        <script type="module" src="./services/mostrarProdutos.js"></script>
     </main>
+
+    <footer class="footer">
+
+        <div class="footer__container">
+            <div class="footer__esquerda">
+
+                <div class="footer__logos">
+                    <a class="footer__logo" href="#"><img src="./assets/image/sports_esports_black_24dp 1.svg"
+                            alt="Controle videogame"></a>
+                    <a class="footer__logo__texto" href="#"><img src="./assets/image/Texto-1.svg" alt="Texto Alura"></a>
+                </div>
+
+                <ul class="footer__lista">
+                    <li><a class="footer__lista__item" href="">Quem somos nós</a></li>
+                    <li><a class="footer__lista__item" href="">Política de privacidade</a></li>
+                    <li><a class="footer__lista__item" href="">Programa fidelidade</a></li>
+                    <li><a class="footer__lista__item" href="">Nossas lojas</a></li>
+                    <li><a class="footer__lista__item" href="">Quero ser franqueado</a></li>
+                    <li"><a class="footer__lista__item" href="">Anuncie aqui</a></li>
+                </ul>
+
+            </div>
+
+
+            <form class="form__footer__contato">
+                <p class="form__footer__title">Fale conosco</p>
+
+                <fieldset class="form__footer__fields">
+
+                    <div class="form__footer__caixa">
+
+                        <div class="form__footer__elemento">
+                            <label class="label__nome">Nome</label>
+                            <input class="form__footer__inputname" name="name" placeholder="Raimundo Caliga Cardoso"
+                                required>
+                        </div>
+
+                    </div>
+
+                    <div class="form__footer__input__mensagem">
+                        <div class="form__footer__caixa__mensagem">
+
+                            <textarea class="form__footer__inputmensagem" name="message"
+                                placeholder="Escreva sua mensagem" required></textarea>
+
+                        </div>
+                    </div>
+
+                </fieldset>
+
+                <button class="btn__form__footer" type="submit">Enviar Mensagem</button>
+            </form>
+
+        </div>
+
+    </footer>
+
+    <section class="rodape">
+
+        <p class="rodape__nome__dev">Desenvolvido por RCaligaC 2023</p>
+
+    </section>
+
+    <script src="./components/cabecalho/cabecalho.js"></script>
+    <script type="module" src="./services/mostrarProdutos.js"></script>
 </body>
 
 </html>
