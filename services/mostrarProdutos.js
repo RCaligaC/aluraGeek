@@ -26,6 +26,7 @@ async function listaCard() {
     /* listaApi.forEach(element => cards.appendChild(constroiCard(element.imageUrl, element.name, element.price))); */
 
     listaApi.forEach(element => {
+
         
         if (element.section == 'starWars') {
 

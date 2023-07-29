@@ -3,8 +3,9 @@
 
 /* passo 1 */
 async function listaProdutos() {
-    const conexao = await fetch("http://localhost:3000/produtos");
-    /* const conexao = await fetch("https://64ae9dc5c85640541d4d65db.mockapi.io/f2l"); */
+    /* const conexao = await fetch("http://localhost:3000/produtos"); */ /* requisitado pelo servidor json-server */
+    const conexao = await fetch("https://64ae9dc5c85640541d4d65db.mockapi.io/produto"); /* requisição pelo mockapi.io */
+    
     const conexaoConvertida = await conexao.json();
 
     /* console.log(conexaoConvertida); */

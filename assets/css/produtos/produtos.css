@@ -1,11 +1,6 @@
 .cards__produtos {
     display: flex;
     flex-direction: column;
-    /* gap: .8rem;
-    align-items: flex-start;
-    align-self: stretch;
-    flex-wrap: wrap;
-    margin-bottom: 1rem; */
 }
 
 .linha__produto {
@@ -113,7 +108,7 @@
     .cards__produtos div:nth-child(5),
     .cards__produtos div:nth-child(6) {
 
-        display: block;
+        display: flex;
     }
 
 }

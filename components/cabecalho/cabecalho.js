@@ -1,8 +1,8 @@
-let cabeca = document.querySelector("[data-cabeca]");
+let cabeca = document.querySelector("[data-cabecalho]");
 
 function criaCabecalho() {
     const novoCabecalho = document.createElement("div");
-    novoCabecalho.className = "cabecalho";
+    novoCabecalho.className = "cabecalho__nav";
     novoCabecalho.innerHTML= `<nav class="cabecalho__nav">
 
     <div class="cabecalho__nav__logo">
