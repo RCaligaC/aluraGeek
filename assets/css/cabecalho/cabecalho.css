@@ -97,17 +97,17 @@
 
 @media screen and (min-width: 1024px){
 
-    .cabecalho {
-        /* max-width: 900px; */
-    }
+    /* .cabecalho {
+        max-width: 900px;
+    } */
 
     .cabecalho__nav__logo {
         width: 176px;
     }
 
-    .nav__logo {
+   /*  .nav__logo {
         
-    }
+    } */
     
     .nav__texto {
         width: 126px;
@@ -118,9 +118,9 @@
        
     }
 
-    .btn__login__cabecalho {
+    /* .btn__login__cabecalho {
         
-    }
+    } */
 }
 
 @media screen and (min-width: 1440px){

@@ -114,7 +114,6 @@
     flex-direction: column;
     padding: 0 0.75rem;
     align-items: flex-start;
-    border-bottom: 1px solid var(--preto-30);
 }
 
 .form__footer__inputname{

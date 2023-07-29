@@ -21,7 +21,7 @@
     align-items: flex-start;
     align-self: stretch;
     gap: .5rem;
-
+    position: relative;
 }
 
 .banner__texto {
