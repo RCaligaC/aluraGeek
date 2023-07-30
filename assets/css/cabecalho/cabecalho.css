@@ -51,9 +51,10 @@
     gap: .625rem;
     padding: 0.75rem 1rem;
     font-family: 'Raleway';
+    font-size: .875rem;
     font-style: normal;
     line-height: normal;
-    color: var(--blue_primary);
+    color: var(--blue_azul100);
     font-weight: 600;
     cursor: pointer;
     border: 1px solid var(--blue_primary);

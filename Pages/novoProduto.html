@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- css - base -->
+    <link rel="stylesheet" href="../assets/css/base/color.css">
+    <link rel="stylesheet" href="../assets/css/base/reset.css">
+    <link rel="stylesheet" href="../assets/css/base/base.css">
+
+    <link rel="stylesheet" href="../assets/css/cabecalho/cabecalho.css">
+    <link rel="stylesheet" href="../assets/css/footer/footer.css">
+    <link rel="stylesheet" href="../assets/css/novoProduto/novoProduto.css">
+
+    <title>AluraGeek novo produto</title>
+</head>
+
+<body>
+    <header class="cabecalho" data-cabecalho>
+
+        <nav class="cabecalho__nav">
+
+            <div class="cabecalho__nav__logo">
+                <a class="nav__logo" href="#"><img src="../assets/image/sports_esports_black_24dp 1.svg"
+                        alt="Controle videogame"></a>
+                <a class="nav__texto" href="#"><img src="../assets/image/Texto.svg" alt="Texto Alura"></a>
+
+            </div>
+
+            <div class="cabecalho__nav__pesquisa">
+                <input class="cabecalho__pesquisa--input" placeholder="Pesquisar sobre..." type="text">
+                <img class="cabecalho__pesquisa__imgLupa" src="../assets/image/IconePesquisaCabecalho.svg"
+                    alt="Imagem de uma lupa">
+
+            </div>
+
+        </nav>
+
+        <a href="#" class="btn__login__cabecalho">Administrador</a>
+        <img class="cabecalho__imgLupa" src="../assets/image/IconeLupa.svg" alt="Imagem de uma lupa">
+
+    </header>
+
+    <main class="novoproduto">
+
+        <form action="" class="form__novoproduto">
+            <fieldset class="form__novoproduto__fields">
+
+                <h2 class="novoproduto__titulo">Adicionar novo produto</h2>
+
+                <div class="form__novoproduto__caixa">
+
+                    <div class="form__novoproduto__elemento">
+                        <label class="label__nome">URL da página</label>
+                        <input class="form__novoproduto__inputname" name="name" placeholder=""
+                            required>
+                    </div>
+
+                </div>
+
+                <div class="form__novoproduto__caixa">
+
+                    <div class="form__novoproduto__elemento">
+                        <label class="label__nome">Categoria</label>
+                        <input class="form__novoproduto__inputname" name="name" placeholder=""
+                            required>
+                    </div>
+
+                </div>
+
+                <div class="form__novoproduto__caixa">
+
+                    <div class="form__novoproduto__elemento">
+                        <label class="label__nome">Nome do produto</label>
+                        <input class="form__novoproduto__inputname" name="name" placeholder=""
+                            required>
+                    </div>
+
+                </div>
+
+                <div class="form__novoproduto__caixa">
+
+                    <div class="form__novoproduto__elemento">
+                        <label class="label__nome">Preço do produto</label>
+                        <input class="form__novoproduto__inputname" name="name" placeholder=""
+                            required>
+                    </div>
+
+                </div>
+
+                <div class="form__novoproduto__caixa">
+
+                    <div class="form__novoproduto__elemento">
+                        <label class="label__nome">Descrição do produto</label>
+                        <input class="form__novoproduto__inputname" name="name" placeholder=""
+                            required>
+                    </div>
+
+                </div>
+
+                <button class="novoproduto__botao" type="submit">Adicionar novo produto</button>
+
+            </fieldset>
+
+        </form>
+
+    </main>
+
+    <footer class="footer">
+
+        <div class="footer__container">
+            <div class="footer__esquerda">
+
+                <div class="footer__logos">
+                    <a class="footer__logo" href="#"><img src="../assets/image/sports_esports_black_24dp 1.svg"
+                            alt="Controle videogame"></a>
+                    <a class="footer__logo__texto" href="#"><img src="../assets/image/Texto-1.svg" alt="Texto Alura"></a>
+                </div>
+
+                <ul class="footer__lista">
+                    <li><a class="footer__lista__item" href="">Quem somos nós</a></li>
+                    <li><a class="footer__lista__item" href="">Política de privacidade</a></li>
+                    <li><a class="footer__lista__item" href="">Programa fidelidade</a></li>
+                    <li><a class="footer__lista__item" href="">Nossas lojas</a></li>
+                    <li><a class="footer__lista__item" href="">Quero ser franqueado</a></li>
+                    <li"><a class="footer__lista__item" href="">Anuncie aqui</a></li>
+                </ul>
+
+            </div>
+
+
+            <form class="form__footer__contato">
+                <p class="form__footer__title">Fale conosco</p>
+
+                <fieldset class="form__footer__fields">
+
+                    <div class="form__footer__caixa">
+
+                        <div class="form__footer__elemento">
+                            <label class="label__nome">Nome</label>
+                            <input class="form__footer__inputname" name="name" placeholder="Raimundo Caliga Cardoso"
+                                required>
+                        </div>
+
+                    </div>
+
+                    <div class="form__footer__input__mensagem">
+                        <div class="form__footer__caixa__mensagem">
+
+                            <textarea class="form__footer__inputmensagem" name="message"
+                                placeholder="Escreva sua mensagem" required></textarea>
+
+                        </div>
+                    </div>
+
+                </fieldset>
+
+                <button class="btn__form__footer" type="submit">Enviar Mensagem</button>
+            </form>
+
+        </div>
+
+    </footer>
+
+    <section class="rodape">
+
+        <p class="rodape__nome__dev">Desenvolvido por RCaligaC 2023</p>
+
+    </section>
+
+    
+</body>
+
+</html>

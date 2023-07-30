@@ -57,7 +57,7 @@
     font-weight: 600;
     line-height: normal;
     cursor: pointer;
-    background: var(--blue_azul100  );
+    background: var(--blue_azul100);
 }
 
 @media screen and (min-width: 768px){
