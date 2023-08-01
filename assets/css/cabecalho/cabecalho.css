@@ -86,6 +86,10 @@
         flex: 1 0 0;
     }
 
+    .cabecalho__pesquisa__imgLupa {
+        cursor: pointer;
+    }
+
     .cabecalho__imgLupa {
         display: none;
     }

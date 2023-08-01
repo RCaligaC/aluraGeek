@@ -25,21 +25,21 @@
 </head>
 
 <body>
-    <header class="cabecalho" data-cabecalho>
+    <header class="cabecalho" data-cabecalho id="cabecalho">
 
         <nav class="cabecalho__nav">
 
             <div class="cabecalho__nav__logo">
-                <a class="nav__logo" href="#"><img src="./assets/image/sports_esports_black_24dp 1.svg"
+                <a class="nav__logo" href="./index.html"><img src="./assets/image/sports_esports_black_24dp 1.svg"
                         alt="Controle videogame"></a>
-                <a class="nav__texto" href="#"><img src="./assets/image/Texto.svg" alt="Texto Alura"></a>
+                <a class="nav__texto" href="./index.html"><img src="./assets/image/Texto.svg" alt="Texto Alura"></a>
 
             </div>
 
             <div class="cabecalho__nav__pesquisa">
-                <input class="cabecalho__pesquisa--input" placeholder="Pesquisar sobre..." type="text">
-                <img class="cabecalho__pesquisa__imgLupa" src="./assets/image/IconePesquisaCabecalho.svg"
-                    alt="Imagem de uma lupa">
+                <input class="cabecalho__pesquisa--input" placeholder="Pesquisar sobre..." type="text" data-dadopesquisa id="pesquisaHome">
+                <a class="btn__pesquisa__imgLupa" href="#"><img class="cabecalho__pesquisa__imgLupa" src="./assets/image/IconePesquisaCabecalho.svg"
+                    alt="Imagem de uma lupa" data-botao-pesquisa></a>
 
             </div>
 
@@ -50,7 +50,7 @@
 
     </header>
 
-    <section class="banner">
+    <section class="banner" data-banner>
         <div class="banner__titulo">
             <h1 class="banner__texto">Dezembro Promocional</h1>
             <p class="banner__texto1">Produtos selecionados com 33% de desconto</p>
@@ -60,9 +60,9 @@
 
     <main class="main__container">
 
-        <section class="cards__produtos">
+        <section class="cards__produtos" data-cards>
 
-            <div class="produtos__titulo__nav" data-tituloProdutos>
+            <div class="produtos__titulo__nav" data-titulostarwars>
 
                 <h2 class="produtos__titulo__categoria">Star Wars</h2>
                 <div class="btn__produtos__titulo">
@@ -72,7 +72,7 @@
     
             </div>
 
-            <div class="linha__produto" data-starwars>
+            <div class="linha__produto" data-starwars data-lista>
                 <!--<div class="card__item">
 
                     <img class="card__image" src="./assets/image/unsplash_6FDXGY9J6y4.png" alt="imagem do produto">
@@ -133,7 +133,7 @@
 
         <section class="cards__produtos" >
 
-            <div class="produtos__titulo__nav" data-tituloProdutos>
+            <div class="produtos__titulo__nav" data-tituloconsoles>
 
                 <h2 class="produtos__titulo__categoria">Consoles</h2>
                 <div class="btn__produtos__titulo">
@@ -205,7 +205,7 @@
 
         <section class="cards__produtos">
 
-            <div class="produtos__titulo__nav" data-tituloProdutos>
+            <div class="produtos__titulo__nav" data-titulodiversos>
 
                 <h2 class="produtos__titulo__categoria">Diversos</h2>
                 <div class="btn__produtos__titulo">
@@ -282,9 +282,9 @@
             <div class="footer__esquerda">
 
                 <div class="footer__logos">
-                    <a class="footer__logo" href="#"><img src="./assets/image/sports_esports_black_24dp 1.svg"
+                    <a class="footer__logo" href="#cabecalho"><img src="./assets/image/sports_esports_black_24dp 1.svg"
                             alt="Controle videogame"></a>
-                    <a class="footer__logo__texto" href="#"><img src="./assets/image/Texto-1.svg" alt="Texto Alura"></a>
+                    <a class="footer__logo__texto" href="#cabecalho"><img src="./assets/image/Texto-1.svg" alt="Texto Alura"></a>
                 </div>
 
                 <ul class="footer__lista">
@@ -338,8 +338,9 @@
 
     </section>
 
-    <script src="./components/cabecalho/cabecalho.js"></script>
-    <script type="module" src="./services/mostrarProdutos.js"></script>
+    <!-- <script src="./components/cabecalho/cabecalho.js"></script> -->
+    <script type="module" src="./controllers/mostrarProdutos.js"></script>
+    <script type="module" src="./controllers/pesquisarProduto.js"></script>
 </body>
 
 </html>

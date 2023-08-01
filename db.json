@@ -2,7 +2,7 @@
   "produtos": [
     {
       "imageUrl": "assets/image/produtos/starwars/caneca.svg",
-      "name": "Produto XYZ",
+      "name": "StarWars XYZ1",
       "price": "60,00",
       "id": 1,
       "alt": "Product",
@@ -11,7 +11,7 @@
     },
     {
       "imageUrl": "assets/image/produtos/starwars/darthvaderlego.svg",
-      "name": "Produto XYZ",
+      "name": "StarWars XYZ2",
       "price": "60,00",
       "id": 2,
       "alt": "Product",
@@ -20,7 +20,7 @@
     },
     {
       "imageUrl": "assets/image/produtos/starwars/yoda.svg",
-      "name": "Produto XYZ",
+      "name": "StarWars XYZ3",
       "price": "60,00",
       "id": 3,
       "alt": "Product",
@@ -29,7 +29,7 @@
     },
     {
       "imageUrl": "assets/image/produtos/starwars/clone.svg",
-      "name": "Produto XYZ",
+      "name": "StarWars XYZ4",
       "price": "60,00",
       "id": 4,
       "alt": "Product",
@@ -38,7 +38,7 @@
     },
     {
       "imageUrl": "assets/image/produtos/starwars/yodabebe.svg",
-      "name": "Produto XYZ",
+      "name": "StarWars XYZ5",
       "price": "60,00",
       "id": 5,
       "alt": "Product",
@@ -47,7 +47,7 @@
     },
     {
       "imageUrl": "assets/image/produtos/starwars/kyloren.svg",
-      "name": "Produto XYZ",
+      "name": "StarWars XYZ6",
       "price": "60,00",
       "id": 6,
       "alt": "Product",
@@ -56,7 +56,7 @@
     },
     {
       "imageUrl": "assets/image/produtos/console/controle.svg",
-      "name": "Produto XYZ",
+      "name": "Console XYZ1",
       "price": "60,00",
       "id": 7,
       "alt": "Product",
@@ -65,7 +65,7 @@
     },
     {
       "imageUrl": "assets/image/produtos/console/ps5.svg",
-      "name": "Produto XYZ",
+      "name": "Console XYZ2",
       "price": "60,00",
       "id": 8,
       "alt": "Product",
@@ -74,7 +74,7 @@
     },
     {
       "imageUrl": "assets/image/produtos/console/nintendo.svg",
-      "name": "Produto XYZ",
+      "name": "Console XYZ3",
       "price": "60,00",
       "id": 9,
       "alt": "Product",
@@ -83,7 +83,7 @@
     },
     {
       "imageUrl": "assets/image/produtos/console/wii.svg",
-      "name": "Produto XYZ",
+      "name": "Console XYZ4",
       "price": "60,00",
       "id": 10,
       "alt": "Product",
@@ -92,7 +92,7 @@
     },
     {
       "imageUrl": "assets/image/produtos/console/xbox.svg",
-      "name": "Produto XYZ",
+      "name": "Console XYZ5",
       "price": "60,00",
       "id": 11,
       "alt": "Product",
@@ -101,7 +101,7 @@
     },
     {
       "imageUrl": "assets/image/produtos/console/gameboy.svg",
-      "name": "Produto XYZ",
+      "name": "Console XYZ6",
       "price": "60,00",
       "id": 12,
       "alt": "Product",
@@ -110,7 +110,7 @@
     },
     {
       "imageUrl": "assets/image/produtos/diversos/camisa-japonesa.svg",
-      "name": "Produto XYZ",
+      "name": "Diverso XYZ1",
       "price": "60,00",
       "id": 13,
       "alt": "Product",
@@ -119,7 +119,7 @@
     },
     {
       "imageUrl": "assets/image/produtos/diversos/camisa.svg",
-      "name": "Produto XYZ",
+      "name": "Diverso XYZ2",
       "price": "60,00",
       "id": 14,
       "alt": "Product",
@@ -128,7 +128,7 @@
     },
     {
       "imageUrl": "assets/image/produtos/diversos/sonic.svg",
-      "name": "Produto XYZ",
+      "name": "Diverso XYZ3",
       "price": "60,00",
       "id": 15,
       "alt": "Product",
@@ -137,7 +137,7 @@
     },
     {
       "imageUrl": "assets/image/produtos/diversos/relogio.svg",
-      "name": "Produto XYZ",
+      "name": "Diverso XYZ4",
       "price": "60,00",
       "id": 16,
       "alt": "Product",
@@ -146,7 +146,7 @@
     },
     {
       "imageUrl": "assets/image/produtos/diversos/realidadevirtual.svg",
-      "name": "Produto XYZ",
+      "name": "Diverso XYZ5",
       "price": "60,00",
       "id": 17,
       "alt": "Product",
@@ -155,9 +155,9 @@
     },
     {
       "imageUrl": "assets/image/produtos/diversos/pikachu.svg",
-      "section": "diversos",
-      "name": "Produto XYZ",
+      "name": "Diverso XYZ6",
       "price": "60,00",
+      "section": "diversos",
       "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
       "id": 18
     }

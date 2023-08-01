@@ -28,9 +28,9 @@
         <nav class="cabecalho__nav">
 
             <div class="cabecalho__nav__logo">
-                <a class="nav__logo" href="#"><img src="../assets/image/sports_esports_black_24dp 1.svg"
+                <a class="nav__logo" href="../index.html"><img src="../assets/image/sports_esports_black_24dp 1.svg"
                         alt="Controle videogame"></a>
-                <a class="nav__texto" href="#"><img src="../assets/image/Texto.svg" alt="Texto Alura"></a>
+                <a class="nav__texto" href="../index.html"><img src="../assets/image/Texto.svg" alt="Texto Alura"></a>
 
             </div>
 
@@ -50,17 +50,17 @@
 
     <main class="novoproduto">
 
-        <form action="" class="form__novoproduto">
-            <fieldset class="form__novoproduto__fields">
+        <section class="novoproduto__caixa">
+            <form class="form__novoproduto__fields" data-formulario>
 
                 <h2 class="novoproduto__titulo">Adicionar novo produto</h2>
 
                 <div class="form__novoproduto__caixa">
 
                     <div class="form__novoproduto__elemento">
-                        <label class="label__nome">URL da página</label>
-                        <input class="form__novoproduto__inputname" name="name" placeholder=""
-                            required>
+                        <label class="label__nome">Path da imagem</label>
+                        <input class="form__novoproduto__inputname inputs" type="text" name="url" placeholder=""
+                            required data-imageUrl>
                     </div>
 
                 </div>
@@ -69,8 +69,8 @@
 
                     <div class="form__novoproduto__elemento">
                         <label class="label__nome">Categoria</label>
-                        <input class="form__novoproduto__inputname" name="name" placeholder=""
-                            required>
+                        <input class="form__novoproduto__inputname inputs" type="text" name="categoria" placeholder=""
+                            required data-section>
                     </div>
 
                 </div>
@@ -79,8 +79,8 @@
 
                     <div class="form__novoproduto__elemento">
                         <label class="label__nome">Nome do produto</label>
-                        <input class="form__novoproduto__inputname" name="name" placeholder=""
-                            required>
+                        <input class="form__novoproduto__inputname inputs" type="text" name="name" placeholder=""
+                            required data-name>
                     </div>
 
                 </div>
@@ -89,27 +89,27 @@
 
                     <div class="form__novoproduto__elemento">
                         <label class="label__nome">Preço do produto</label>
-                        <input class="form__novoproduto__inputname" name="name" placeholder=""
-                            required>
+                        <input class="form__novoproduto__inputname inputs" name="preco" placeholder=""
+                            required data-price>
                     </div>
 
                 </div>
 
-                <div class="form__novoproduto__caixa">
+                <div class="form__novoproduto__caixa descricao">
 
-                    <div class="form__novoproduto__elemento">
-                        <label class="label__nome">Descrição do produto</label>
-                        <input class="form__novoproduto__inputname" name="name" placeholder=""
-                            required>
+                    <div class="form__novoproduto__elemento descricao">
+                        <label class="label__nome labeldescricao">Descrição do produto</label>
+                        <input class="form__novoproduto__inputname inputdescricao" type="text" name="descricao" placeholder=""
+                            required data-description>
                     </div>
 
                 </div>
 
                 <button class="novoproduto__botao" type="submit">Adicionar novo produto</button>
 
-            </fieldset>
+            </form>
 
-        </form>
+        </section>
 
     </main>
 
@@ -175,7 +175,7 @@
 
     </section>
 
-    
+    <script type="module" src="../controllers/adicionaProdutos.js"></script>
 </body>
 
 </html>

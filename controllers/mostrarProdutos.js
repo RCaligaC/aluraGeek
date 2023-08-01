@@ -1,6 +1,6 @@
 /* passo 5 
 importar a função conectaApi do arquivo requisicaoProdutos.js*/
-import { conectaApi } from "./requisicaoProdutos.js";
+import { conectaApi } from "../services/requisicaoDeProdutos.js";
 
 /* passo 6
 selecionar o elemento pai para criar o elemento filho com a estrutura HTML de cada video */
@@ -9,12 +9,12 @@ const consolesCards = document.querySelector("[data-consoles]");
 const diversosCards = document.querySelector("[data-diversos]");
 
 
-function constroiCard(imageUrl, name, price) {
+export default function constroiCard(imageUrl, name, price) {
     const card = document.createElement("div");
     card.className = "card__item";
     card.innerHTML = `<img class="card__image" src="${imageUrl}" alt="imagem do produto">
     <p class="card__nome">${name}</p>
-    <p class="card__preco">${price}</p>
+    <p class="card__preco">R$ ${price}</p>
     <a class="btn__card" href="#">Ver produto</a>`
 
     return card;
