@@ -1,0 +1,130 @@
+.login__container {
+    width: 275px;
+    height: 189px;
+    margin: 169px 45px;
+    flex-shrink: 0;
+
+    width: 275px;
+}
+
+.login__titulo{
+    color: var(--preto-100);
+    font-family: 'Raleway';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* .login__fields {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+} */
+
+.login__caixa {
+
+    display: flex;
+    padding-top: .5rem;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: .4375rem;
+    align-self: stretch;
+    border-bottom: 1px solid var(--preto-50);
+    border-radius: 4px;
+    background: var(--white_100);
+}
+
+.label__nome {
+    color: var(--preto-50 );
+    font-family: 'Raleway';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1rem;
+    margin-bottom: .4375rem;
+}
+
+.login__elemento {
+    display: flex;
+    flex-direction: column;
+    padding: 0 0.75rem;
+    align-items: flex-start;
+
+    width: 275px;
+}
+
+.login__inputname{
+    width: 19rem;
+    border: none;
+    margin-bottom: .5rem;
+}
+
+.login__inputname::-webkit-input-placeholder {
+    color: var(--preto-100);
+    font-family: 'Raleway';
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.25rem; 
+}
+
+.login__inputname:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+} 
+
+.login__botao {
+    display: flex;
+    width: 10rem;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    gap: .625rem;
+    align-self: stretch;
+    background: var(--blue_azul100);
+    color: var(--white_100);
+    border: none;
+}
+
+
+/* modo tablet */
+@media screen and (min-width: 768px) {
+    .login__container {
+        padding: 2rem;
+    }
+
+    .login__fields {
+        width: 34.4375rem;
+    }
+
+    .inputs {
+        width: 30rem;
+    }
+
+}
+
+
+/* modo lap-top */
+@media screen and (min-width: 1024px) {
+
+    
+
+}
+
+
+/* modo home */
+@media screen and (min-width: 1040px) {
+    .login__container {
+        padding: 4rem;
+    }
+
+    .login__fields {
+        width: 34.4375rem;
+    }
+
+}

@@ -3,33 +3,38 @@ import constroiCard from "./mostrarProdutos.js";
 
 async function pesquisarProduto(evento) {
 
-    evento.preventDefault();
+    if (document.getElementById('pesquisaHome').value == '') {
 
-    const dadosDePesquisa = document.querySelector("[data-dadopesquisa]").value;
-    const busca = await conectaApi.buscaProduto(dadosDePesquisa);
+        window.location.reload();
 
-    /* const starwarsCards = document.querySelector("[data-starWars]");
-    const consolesCards = document.querySelector("[data-consoles]");
-    const diversosCards = document.querySelector("[data-diversos]"); */
+    } else {
 
-    const resultadoPesquisa = document.querySelector("[data-lista]");
+        evento.preventDefault();
 
-    const lista = [document.querySelector("[data-starWars]"), document.querySelector("[data-consoles]"), document.querySelector("[data-diversos]")];
+        document.querySelector("[data-titulostarwars]").style.display = "none";
+        document.querySelector("[data-tituloconsoles]").style.display = "none";
+        document.querySelector("[data-titulodiversos]").style.display = "none";
 
-    lista.forEach(element => {
-        while(element.firstChild) {
-            element.removeChild(element.firstChild);
+        /* document.querySelector("[data-starWars]").style.display = "none"; */
+        document.querySelector("[data-consoles]").style.display = "none";
+        document.querySelector("[data-diversos]").style.display = "none";
+
+        const dadosDePesquisa = document.querySelector("[data-dadopesquisa]").value;
+        const busca = await conectaApi.buscaProduto(dadosDePesquisa);
+
+
+
+        const resultadoPesquisa = document.querySelector("[data-starwars]");
+
+        while (resultadoPesquisa.firstChild) {
+
+            resultadoPesquisa.removeChild(resultadoPesquisa.firstChild);
         }
-    })
-    
-    /* while(starwarsCards.firstChild) {
 
-        starwarsCards.removeChild(starwarsCards.firstChild);
-    } */
+        console.log(resultadoPesquisa);
 
-    busca.forEach(element => resultadoPesquisa.appendChild(
-        constroiCard(element.imageUrl, element.name, element.price)));
-
+        busca.forEach(element => resultadoPesquisa.appendChild(constroiCard(element.imageUrl, element.name, element.price)));
+    }
 }
 
 const botaoDePesquisa = document.querySelector("[data-botao-pesquisa]");
@@ -39,17 +44,7 @@ const botaoDePesquisa = document.querySelector("[data-botao-pesquisa]");
 
 botaoDePesquisa.addEventListener("click", evento => {
 
-    /* if (document.getElementById('pesquisaHome').value == '') {
-
-        window.location.reload();
-
-    } else {} */
-
         pesquisarProduto(evento);
         document.getElementById('pesquisaHome').value = '';
 
-        document.querySelector("[data-titulostarwars]").style.display = "none";
-        document.querySelector("[data-tituloconsoles]").style.display = "none";
-        document.querySelector("[data-titulodiversos]").style.display = "none";
-    
 });

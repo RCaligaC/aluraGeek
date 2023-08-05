@@ -11,16 +11,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
 
     <!-- css - base -->
-    <link rel="stylesheet" href="../assets/css/base/color.css">
-    <link rel="stylesheet" href="../assets/css/base/reset.css">
-    <link rel="stylesheet" href="../assets/css/base/base.css">
+    <link rel="stylesheet" href="./assets/css/base/color.css">
+    <link rel="stylesheet" href="./assets/css/base/reset.css">
+    <link rel="stylesheet" href="./assets/css/base/base.css">
 
-    <link rel="stylesheet" href="../assets/css/cabecalho/cabecalho.css">
-    <link rel="stylesheet" href="../assets/css/login/login.css">
-    <!-- <link rel="stylesheet" href="../assets/css/produtos/produtos_titulo.css"> -->
-    <link rel="stylesheet" href="../assets/css/footer/footer.css">
+    <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho.css">
+    <link rel="stylesheet" href="./assets/css/produtos/produtos_titulo.css">
+    <link rel="stylesheet" href="./assets/css/produtos/produtos.css">
+    <link rel="stylesheet" href="./assets/css/todosProdutos/todosProdutos.css">
+    <link rel="stylesheet" href="./assets/css/footer/footer.css">
 
-    <title>AluraGeek Login-Home</title>
+    <title>AluraGeek Produtos-Home</title>
 </head>
 
 <body>
@@ -29,15 +30,15 @@
         <nav class="cabecalho__nav">
 
             <div class="cabecalho__nav__logo">
-                <a class="nav__logo" href="../index.html"><img src="../assets/image/sports_esports_black_24dp 1.svg"
+                <a class="nav__logo" href="../"><img src="./assets/image/sports_esports_black_24dp 1.svg"
                         alt="Controle videogame"></a>
-                <a class="nav__texto" href="../index.html"><img src="../assets/image/Texto.svg" alt="Texto Alura"></a>
+                <a class="nav__texto" href="./index.html"><img src="./assets/image/Texto.svg" alt="Texto Alura"></a>
 
             </div>
 
             <div class="cabecalho__nav__pesquisa">
                 <input class="cabecalho__pesquisa--input" placeholder="Pesquisar sobre..." type="text" data-dadopesquisa id="pesquisaHome">
-                <a class="btn__pesquisa__imgLupa" href="#"><img class="cabecalho__pesquisa__imgLupa" src="../assets/image/IconePesquisaCabecalho.svg"
+                <a class="btn__pesquisa__imgLupa" href="#"><img class="cabecalho__pesquisa__imgLupa" src="./assets/image/IconePesquisaCabecalho.svg"
                     alt="Imagem de uma lupa" data-botao-pesquisa></a>
 
             </div>
@@ -48,36 +49,22 @@
 
     </header>
 
-    <main class="login__container">
+    <main class="main__container">
 
-        <section class="login__caixa">
-            <form class="login__fields" data-formulario>
+        <section class="cards__produtos" data-cards>
 
-                <h2 class="login__titulo">Iniciar Seção</h2>
+            <div class="produtos__titulo__nav" data-titulostarwars>
 
-                <div class="login__caixa">
-
-                    <div class="login__elemento">
-                        <label class="label__nome">E-mail</label>
-                        <input class="login__inputname inputs" type="email" name="url" placeholder=""
-                            required data-imageUrl>
-                    </div>
-
+                <h2 class="produtos__titulo__categoria">Todos os produtos</h2>
+                <div class="btn__produtos__titulo">
+                    <a href="./Pages/novoProduto.html" class="btn__login__cabecalho btn__adproduto">Adcionar produto</a>
                 </div>
+    
+            </div>
 
-                <div class="login__caixa">
-
-                    <div class="login__elemento">
-                        <label class="label__nome">Senha</label>
-                        <input class="login__inputname inputs" type="text" name="categoria" placeholder=""
-                            required data-section>
-                    </div>
-
-                </div>
-
-                <button class="login__botao" type="submit">Entrar</button>
-
-            </form>
+            <div class="linha__produto" data-produtos>
+                
+            </div>
 
         </section>
 
@@ -89,9 +76,9 @@
             <div class="footer__esquerda">
 
                 <div class="footer__logos">
-                    <a class="footer__logo" href="#cabecalho"><img src="../assets/image/sports_esports_black_24dp 1.svg"
+                    <a class="footer__logo" href="#cabecalho"><img src="./assets/image/sports_esports_black_24dp 1.svg"
                             alt="Controle videogame"></a>
-                    <a class="footer__logo__texto" href="#cabecalho"><img src="../assets/image/Texto-1.svg" alt="Texto Alura"></a>
+                    <a class="footer__logo__texto" href="#cabecalho"><img src="./assets/image/Texto-1.svg" alt="Texto Alura"></a>
                 </div>
 
                 <ul class="footer__lista">
@@ -144,6 +131,9 @@
         <p class="rodape__nome__dev">Desenvolvido por RCaligaC 2023</p>
 
     </section>
+
+    <!-- <script src="./components/cabecalho/cabecalho.js"></script> -->
+    <script type="module" src="./controllers/todosProdutos.js"></script>
 </body>
 
 </html>
