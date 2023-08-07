@@ -57,11 +57,11 @@
             <h2 class="login__titulo">Iniciar Seção</h2>
 
             <div class="login__campotexto">
-                <input class="login__campoinput" placeholder="Escreva seu email" />
+                <input class="login__campoinput" id="usuario" placeholder="email - admin@alurageek.com" required />
             </div>
               
             <div class="login__campotexto">
-                <input class="login__campoinput" placeholder="Escreva sua senha" />
+                <input class="login__campoinput" id="senha" placeholder="senha - admin" required />
             </div>
 
             <button class="login__botao"type="submit">Entrar</button>
@@ -104,7 +104,7 @@
 
                         <div class="form__footer__elemento">
                             <label class="label__nome">Nome</label>
-                            <input class="form__footer__inputname" name="name" placeholder="Raimundo Caliga Cardoso"
+                            <input class="form__footer__inputname" name="name" placeholder=""
                                 required>
                         </div>
 
@@ -133,6 +133,8 @@
         <p class="rodape__nome__dev">Desenvolvido por RCaligaC 2023</p>
 
     </section>
+
+    <script src="../controllers/login.js"></script>
 </body>
 
 </html>

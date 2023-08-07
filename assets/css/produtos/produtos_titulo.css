@@ -7,14 +7,12 @@
 }
 
 .produtos__titulo__nav {
-
     display: flex;
     justify-content: space-between;
     align-items: center;
     align-self: stretch;
 
     margin-bottom: 1rem;
-
 }
 
 .produtos__titulo__categoria {
@@ -81,14 +79,6 @@ tablet */
 
 @media screen and (min-width: 1440px) {
 
-    .produtos__titulo__nav {
-
-       /* max-width: 1333px; */
-       
-    }
-
-    .produtos__titulo__tipo {
-       
-    }
+   
 
 }

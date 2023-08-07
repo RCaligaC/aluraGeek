@@ -59,6 +59,12 @@
     cursor: pointer;
     border: 1px solid var(--blue_primary);
     width: 8.3rem;
+    background-color: transparent;
+    transition: ease-out .5ms;
+}
+
+.btn__login__cabecalho:hover {
+    background-color: var(--blue_secondary);
 }
 
 @media screen and (min-width: 768px){

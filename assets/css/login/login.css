@@ -7,7 +7,7 @@
     text-align: center;
     margin:  0 auto;
     max-width:275px;
-    height: 325px;
+    height: 300px;
     flex-shrink: 0;
 }
 
@@ -29,7 +29,7 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-start;
-    margin-bottom: 27px;
+    margin-bottom: 25px;
     border-radius: 4px;
     background: var(--white_100);
 }
@@ -68,6 +68,7 @@
     font-weight: 600;
     line-height: normal;
     color: var(--white_100);
+    cursor: pointer;
 }
 
 /* modo tablet */
@@ -83,13 +84,20 @@
 
 /* modo lap-top */
 @media screen and (min-width: 1024px) {
-
-    
+    .login__form {
+        margin: auto;
+        width: 275px;
+        flex-shrink: 0;
+    }
 
 }
 
 
 /* modo home */
 @media screen and (min-width: 1040px) {
-
+    .login__form {
+        margin: auto;
+        width: 275px;
+        flex-shrink: 0;
+    }
 }

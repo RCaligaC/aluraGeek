@@ -58,6 +58,12 @@
     line-height: normal;
     cursor: pointer;
     background: var(--blue_azul100);
+    transition: 15ms all;
+}
+
+.btn__banner:hover {
+    background-color: var(--blue_secondary);
+    color: var(--blue_azul100);
 }
 
 @media screen and (min-width: 768px){

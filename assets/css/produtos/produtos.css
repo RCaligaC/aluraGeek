@@ -4,7 +4,6 @@
 }
 
 .linha__produto {
-
     display: flex;
     gap: .8rem;
     align-items: flex-start;
