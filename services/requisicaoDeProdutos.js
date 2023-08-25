@@ -63,7 +63,7 @@ async function adicionaProduto(imageUrl, section, name, price, description) {
 async function buscaProduto(termoDeBusca) {
     /* const conexao = await fetch(`http://localhost:3000/produtos?q=${termoDeBusca}`); */
 
-    const conexao = await fetch(`https://64ae9dc5c85640541d4d65db.mockapi.io/produto?q=${termoDeBusca}`);
+    const conexao = await fetch(`https://api.mockfly.dev/mocks/bfd39014-9fb3-4c58-8122-456b09b911e6/produtos?q=${termoDeBusca}`);
     const conexaoConvertida = conexao.json();
 
 
