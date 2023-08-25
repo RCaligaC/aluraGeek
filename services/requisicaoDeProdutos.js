@@ -3,7 +3,8 @@
 /* passo 1 */
 async function listaProdutos() {
     /* const conexao = await fetch("http://localhost:3000/produtos"); */ /* requisitado pelo servidor json-server */
-    const conexao = await fetch("https://64ae9dc5c85640541d4d65db.mockapi.io/produto"); /* requisição pelo mockapi.io */
+    /* const conexao = await fetch("https://64ae9dc5c85640541d4d65db.mockapi.io/produto"); */ /* requisição pelo mockapi.io */
+    const conexao = await fetch("https://api.mockfly.dev/mocks/bfd39014-9fb3-4c58-8122-456b09b911e6/produtos"); /* pelo mockfly*/
     
     const conexaoConvertida = await conexao.json();
 
@@ -33,7 +34,7 @@ async function adicionaProduto(imageUrl, section, name, price, description) {
         })
     }) */
 
-    const conexao = await fetch("https://64ae9dc5c85640541d4d65db.mockapi.io/produto", {  
+    const conexao = await fetch("https://api.mockfly.dev/mocks/bfd39014-9fb3-4c58-8122-456b09b911e6/produtos", {  
 
         method: "POST",
         headers: {
